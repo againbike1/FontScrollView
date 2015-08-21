@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15917FF81AEDCFBF00FBEE40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15917FF71AEDCFBF00FBEE40 /* main.m */; };
+		15917FFB1AEDCFBF00FBEE40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15917FFA1AEDCFBF00FBEE40 /* AppDelegate.m */; };
+		15917FFE1AEDCFBF00FBEE40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15917FFD1AEDCFBF00FBEE40 /* ViewController.m */; };
+		159180011AEDCFBF00FBEE40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15917FFF1AEDCFBF00FBEE40 /* Main.storyboard */; };
+		159180031AEDCFBF00FBEE40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 159180021AEDCFBF00FBEE40 /* Images.xcassets */; };
+		159180061AEDCFBF00FBEE40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 159180041AEDCFBF00FBEE40 /* LaunchScreen.xib */; };
+		159180121AEDCFBF00FBEE40 /* FontScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 159180111AEDCFBF00FBEE40 /* FontScrollViewTests.m */; };
+		1591801D1AEDCFD600FBEE40 /* SSRollingButtonScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1591801C1AEDCFD600FBEE40 /* SSRollingButtonScrollView.m */; };
+		1591803F1AEDD59900FBEE40 /* font_00@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1591801F1AEDD59900FBEE40 /* font_00@2x.png */; };
+		159180401AEDD59900FBEE40 /* font_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180201AEDD59900FBEE40 /* font_01@2x.png */; };
+		159180411AEDD59900FBEE40 /* font_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180211AEDD59900FBEE40 /* font_02@2x.png */; };
+		159180421AEDD59900FBEE40 /* font_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180221AEDD59900FBEE40 /* font_03@2x.png */; };
+		159180431AEDD59900FBEE40 /* font_04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180231AEDD59900FBEE40 /* font_04@2x.png */; };
+		159180441AEDD59900FBEE40 /* font_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180241AEDD59900FBEE40 /* font_05.png */; };
+		159180451AEDD59900FBEE40 /* font_06@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180251AEDD59900FBEE40 /* font_06@2x.png */; };
+		159180461AEDD59900FBEE40 /* fontB.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180261AEDD59900FBEE40 /* fontB.png */; };
+		159180471AEDD59900FBEE40 /* fontbig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180271AEDD59900FBEE40 /* fontbig@2x.png */; };
+		159180481AEDD59900FBEE40 /* fontBT.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180281AEDD59900FBEE40 /* fontBT.png */; };
+		159180491AEDD59900FBEE40 /* fontBT_BT.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180291AEDD59900FBEE40 /* fontBT_BT.png */; };
+		1591804A1AEDD59900FBEE40 /* fontH_00@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1591802A1AEDD59900FBEE40 /* fontH_00@2x.png */; };
+		1591804B1AEDD59900FBEE40 /* fontH_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1591802B1AEDD59900FBEE40 /* fontH_01.png */; };
+		1591804C1AEDD59900FBEE40 /* fontH_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 1591802C1AEDD59900FBEE40 /* fontH_02.png */; };
+		1591804D1AEDD59900FBEE40 /* fontH_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 1591802D1AEDD59900FBEE40 /* fontH_03.png */; };
+		1591804E1AEDD59900FBEE40 /* fontH_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 1591802E1AEDD59900FBEE40 /* fontH_04.png */; };
+		1591804F1AEDD59900FBEE40 /* fontH_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 1591802F1AEDD59900FBEE40 /* fontH_05.png */; };
+		159180501AEDD59900FBEE40 /* fontH_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180301AEDD59900FBEE40 /* fontH_06.png */; };
+		159180511AEDD59900FBEE40 /* fontH_TT.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180311AEDD59900FBEE40 /* fontH_TT.png */; };
+		159180521AEDD59900FBEE40 /* fontsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180321AEDD59900FBEE40 /* fontsmall.png */; };
+		159180531AEDD59900FBEE40 /* fontT.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180331AEDD59900FBEE40 /* fontT.png */; };
+		159180541AEDD59900FBEE40 /* fonttH_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180341AEDD59900FBEE40 /* fonttH_01.png */; };
+		159180551AEDD59900FBEE40 /* fonttH_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180351AEDD59900FBEE40 /* fonttH_02.png */; };
+		159180561AEDD59900FBEE40 /* fontTT.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180361AEDD59900FBEE40 /* fontTT.png */; };
+		159180571AEDD59900FBEE40 /* foutbug_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180371AEDD59900FBEE40 /* foutbug_01.png */; };
+		159180581AEDD59900FBEE40 /* foutsmal_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180381AEDD59900FBEE40 /* foutsmal_01.png */; };
+		159180591AEDD59900FBEE40 /* style_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 159180391AEDD59900FBEE40 /* style_01.png */; };
+		1591805A1AEDD59900FBEE40 /* style_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 1591803A1AEDD59900FBEE40 /* style_02.png */; };
+		1591805B1AEDD59900FBEE40 /* style_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 1591803B1AEDD59900FBEE40 /* style_03.png */; };
+		1591805C1AEDD59900FBEE40 /* stylecenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 1591803C1AEDD59900FBEE40 /* stylecenter.png */; };
+		1591805D1AEDD59900FBEE40 /* styleleft.png in Resources */ = {isa = PBXBuildFile; fileRef = 1591803D1AEDD59900FBEE40 /* styleleft.png */; };
+		1591805E1AEDD59900FBEE40 /* styleright.png in Resources */ = {isa = PBXBuildFile; fileRef = 1591803E1AEDD59900FBEE40 /* styleright.png */; };
+		159180641AEE193500FBEE40 /* LLRollingButtonScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 159180631AEE193500FBEE40 /* LLRollingButtonScrollView.m */; };
+		159180671AEE218F00FBEE40 /* arista.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 159180651AEE218F00FBEE40 /* arista.ttf */; };
+		159180681AEE218F00FBEE40 /* BaroqueScript.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 159180661AEE218F00FBEE40 /* BaroqueScript.ttf */; };
+		1591806C1AEE222700FBEE40 /* HYLeMiaoTiJRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 159180691AEE222700FBEE40 /* HYLeMiaoTiJRegular.ttf */; };
+		1591806D1AEE222700FBEE40 /* Kai.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1591806A1AEE222700FBEE40 /* Kai.ttf */; };
+		1591806E1AEE222700FBEE40 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1591806B1AEE222700FBEE40 /* OpenSans-Bold.ttf */; };
+		159180711AEE315C00FBEE40 /* intforColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 159180701AEE315C00FBEE40 /* intforColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1591800C1AEDCFBF00FBEE40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15917FEA1AEDCFBF00FBEE40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15917FF11AEDCFBF00FBEE40;
+			remoteInfo = FontScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15917FF21AEDCFBF00FBEE40 /* FontScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15917FF61AEDCFBF00FBEE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15917FF71AEDCFBF00FBEE40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15917FF91AEDCFBF00FBEE40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15917FFA1AEDCFBF00FBEE40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15917FFC1AEDCFBF00FBEE40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15917FFD1AEDCFBF00FBEE40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		159180001AEDCFBF00FBEE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		159180021AEDCFBF00FBEE40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		159180051AEDCFBF00FBEE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1591800B1AEDCFBF00FBEE40 /* FontScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		159180101AEDCFBF00FBEE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		159180111AEDCFBF00FBEE40 /* FontScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontScrollViewTests.m; sourceTree = "<group>"; };
+		1591801B1AEDCFD600FBEE40 /* SSRollingButtonScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRollingButtonScrollView.h; sourceTree = "<group>"; };
+		1591801C1AEDCFD600FBEE40 /* SSRollingButtonScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRollingButtonScrollView.m; sourceTree = "<group>"; };
+		1591801F1AEDD59900FBEE40 /* font_00@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "font_00@2x.png"; sourceTree = "<group>"; };
+		159180201AEDD59900FBEE40 /* font_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "font_01@2x.png"; sourceTree = "<group>"; };
+		159180211AEDD59900FBEE40 /* font_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "font_02@2x.png"; sourceTree = "<group>"; };
+		159180221AEDD59900FBEE40 /* font_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "font_03@2x.png"; sourceTree = "<group>"; };
+		159180231AEDD59900FBEE40 /* font_04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "font_04@2x.png"; sourceTree = "<group>"; };
+		159180241AEDD59900FBEE40 /* font_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = font_05.png; sourceTree = "<group>"; };
+		159180251AEDD59900FBEE40 /* font_06@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "font_06@2x.png"; sourceTree = "<group>"; };
+		159180261AEDD59900FBEE40 /* fontB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontB.png; sourceTree = "<group>"; };
+		159180271AEDD59900FBEE40 /* fontbig@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fontbig@2x.png"; sourceTree = "<group>"; };
+		159180281AEDD59900FBEE40 /* fontBT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontBT.png; sourceTree = "<group>"; };
+		159180291AEDD59900FBEE40 /* fontBT_BT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontBT_BT.png; sourceTree = "<group>"; };
+		1591802A1AEDD59900FBEE40 /* fontH_00@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fontH_00@2x.png"; sourceTree = "<group>"; };
+		1591802B1AEDD59900FBEE40 /* fontH_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontH_01.png; sourceTree = "<group>"; };
+		1591802C1AEDD59900FBEE40 /* fontH_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontH_02.png; sourceTree = "<group>"; };
+		1591802D1AEDD59900FBEE40 /* fontH_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontH_03.png; sourceTree = "<group>"; };
+		1591802E1AEDD59900FBEE40 /* fontH_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontH_04.png; sourceTree = "<group>"; };
+		1591802F1AEDD59900FBEE40 /* fontH_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontH_05.png; sourceTree = "<group>"; };
+		159180301AEDD59900FBEE40 /* fontH_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontH_06.png; sourceTree = "<group>"; };
+		159180311AEDD59900FBEE40 /* fontH_TT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontH_TT.png; sourceTree = "<group>"; };
+		159180321AEDD59900FBEE40 /* fontsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontsmall.png; sourceTree = "<group>"; };
+		159180331AEDD59900FBEE40 /* fontT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontT.png; sourceTree = "<group>"; };
+		159180341AEDD59900FBEE40 /* fonttH_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fonttH_01.png; sourceTree = "<group>"; };
+		159180351AEDD59900FBEE40 /* fonttH_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fonttH_02.png; sourceTree = "<group>"; };
+		159180361AEDD59900FBEE40 /* fontTT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fontTT.png; sourceTree = "<group>"; };
+		159180371AEDD59900FBEE40 /* foutbug_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foutbug_01.png; sourceTree = "<group>"; };
+		159180381AEDD59900FBEE40 /* foutsmal_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foutsmal_01.png; sourceTree = "<group>"; };
+		159180391AEDD59900FBEE40 /* style_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = style_01.png; sourceTree = "<group>"; };
+		1591803A1AEDD59900FBEE40 /* style_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = style_02.png; sourceTree = "<group>"; };
+		1591803B1AEDD59900FBEE40 /* style_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = style_03.png; sourceTree = "<group>"; };
+		1591803C1AEDD59900FBEE40 /* stylecenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stylecenter.png; sourceTree = "<group>"; };
+		1591803D1AEDD59900FBEE40 /* styleleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = styleleft.png; sourceTree = "<group>"; };
+		1591803E1AEDD59900FBEE40 /* styleright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = styleright.png; sourceTree = "<group>"; };
+		159180621AEE193500FBEE40 /* LLRollingButtonScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLRollingButtonScrollView.h; sourceTree = "<group>"; };
+		159180631AEE193500FBEE40 /* LLRollingButtonScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLRollingButtonScrollView.m; sourceTree = "<group>"; };
+		159180651AEE218F00FBEE40 /* arista.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = arista.ttf; sourceTree = "<group>"; };
+		159180661AEE218F00FBEE40 /* BaroqueScript.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BaroqueScript.ttf; sourceTree = "<group>"; };
+		159180691AEE222700FBEE40 /* HYLeMiaoTiJRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HYLeMiaoTiJRegular.ttf; sourceTree = "<group>"; };
+		1591806A1AEE222700FBEE40 /* Kai.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kai.ttf; sourceTree = "<group>"; };
+		1591806B1AEE222700FBEE40 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		1591806F1AEE315C00FBEE40 /* intforColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intforColor.h; sourceTree = "<group>"; };
+		159180701AEE315C00FBEE40 /* intforColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = intforColor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15917FEF1AEDCFBF00FBEE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		159180081AEDCFBF00FBEE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15917FE91AEDCFBF00FBEE40 = {
+			isa = PBXGroup;
+			children = (
+				15917FF41AEDCFBF00FBEE40 /* FontScrollView */,
+				1591800E1AEDCFBF00FBEE40 /* FontScrollViewTests */,
+				15917FF31AEDCFBF00FBEE40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15917FF31AEDCFBF00FBEE40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15917FF21AEDCFBF00FBEE40 /* FontScrollView.app */,
+				1591800B1AEDCFBF00FBEE40 /* FontScrollViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15917FF41AEDCFBF00FBEE40 /* FontScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				159180691AEE222700FBEE40 /* HYLeMiaoTiJRegular.ttf */,
+				1591806A1AEE222700FBEE40 /* Kai.ttf */,
+				1591806B1AEE222700FBEE40 /* OpenSans-Bold.ttf */,
+				159180651AEE218F00FBEE40 /* arista.ttf */,
+				159180661AEE218F00FBEE40 /* BaroqueScript.ttf */,
+				159180621AEE193500FBEE40 /* LLRollingButtonScrollView.h */,
+				159180631AEE193500FBEE40 /* LLRollingButtonScrollView.m */,
+				1591801E1AEDD59900FBEE40 /* fontone */,
+				1591801B1AEDCFD600FBEE40 /* SSRollingButtonScrollView.h */,
+				1591801C1AEDCFD600FBEE40 /* SSRollingButtonScrollView.m */,
+				15917FF91AEDCFBF00FBEE40 /* AppDelegate.h */,
+				15917FFA1AEDCFBF00FBEE40 /* AppDelegate.m */,
+				1591806F1AEE315C00FBEE40 /* intforColor.h */,
+				159180701AEE315C00FBEE40 /* intforColor.m */,
+				15917FFC1AEDCFBF00FBEE40 /* ViewController.h */,
+				15917FFD1AEDCFBF00FBEE40 /* ViewController.m */,
+				15917FFF1AEDCFBF00FBEE40 /* Main.storyboard */,
+				159180021AEDCFBF00FBEE40 /* Images.xcassets */,
+				159180041AEDCFBF00FBEE40 /* LaunchScreen.xib */,
+				15917FF51AEDCFBF00FBEE40 /* Supporting Files */,
+			);
+			path = FontScrollView;
+			sourceTree = "<group>";
+		};
+		15917FF51AEDCFBF00FBEE40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15917FF61AEDCFBF00FBEE40 /* Info.plist */,
+				15917FF71AEDCFBF00FBEE40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1591800E1AEDCFBF00FBEE40 /* FontScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				159180111AEDCFBF00FBEE40 /* FontScrollViewTests.m */,
+				1591800F1AEDCFBF00FBEE40 /* Supporting Files */,
+			);
+			path = FontScrollViewTests;
+			sourceTree = "<group>";
+		};
+		1591800F1AEDCFBF00FBEE40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				159180101AEDCFBF00FBEE40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1591801E1AEDD59900FBEE40 /* fontone */ = {
+			isa = PBXGroup;
+			children = (
+				1591801F1AEDD59900FBEE40 /* font_00@2x.png */,
+				159180201AEDD59900FBEE40 /* font_01@2x.png */,
+				159180211AEDD59900FBEE40 /* font_02@2x.png */,
+				159180221AEDD59900FBEE40 /* font_03@2x.png */,
+				159180231AEDD59900FBEE40 /* font_04@2x.png */,
+				159180241AEDD59900FBEE40 /* font_05.png */,
+				159180251AEDD59900FBEE40 /* font_06@2x.png */,
+				159180261AEDD59900FBEE40 /* fontB.png */,
+				159180271AEDD59900FBEE40 /* fontbig@2x.png */,
+				159180281AEDD59900FBEE40 /* fontBT.png */,
+				159180291AEDD59900FBEE40 /* fontBT_BT.png */,
+				1591802A1AEDD59900FBEE40 /* fontH_00@2x.png */,
+				1591802B1AEDD59900FBEE40 /* fontH_01.png */,
+				1591802C1AEDD59900FBEE40 /* fontH_02.png */,
+				1591802D1AEDD59900FBEE40 /* fontH_03.png */,
+				1591802E1AEDD59900FBEE40 /* fontH_04.png */,
+				1591802F1AEDD59900FBEE40 /* fontH_05.png */,
+				159180301AEDD59900FBEE40 /* fontH_06.png */,
+				159180311AEDD59900FBEE40 /* fontH_TT.png */,
+				159180321AEDD59900FBEE40 /* fontsmall.png */,
+				159180331AEDD59900FBEE40 /* fontT.png */,
+				159180341AEDD59900FBEE40 /* fonttH_01.png */,
+				159180351AEDD59900FBEE40 /* fonttH_02.png */,
+				159180361AEDD59900FBEE40 /* fontTT.png */,
+				159180371AEDD59900FBEE40 /* foutbug_01.png */,
+				159180381AEDD59900FBEE40 /* foutsmal_01.png */,
+				159180391AEDD59900FBEE40 /* style_01.png */,
+				1591803A1AEDD59900FBEE40 /* style_02.png */,
+				1591803B1AEDD59900FBEE40 /* style_03.png */,
+				1591803C1AEDD59900FBEE40 /* stylecenter.png */,
+				1591803D1AEDD59900FBEE40 /* styleleft.png */,
+				1591803E1AEDD59900FBEE40 /* styleright.png */,
+			);
+			path = fontone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15917FF11AEDCFBF00FBEE40 /* FontScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 159180151AEDCFBF00FBEE40 /* Build configuration list for PBXNativeTarget "FontScrollView" */;
+			buildPhases = (
+				15917FEE1AEDCFBF00FBEE40 /* Sources */,
+				15917FEF1AEDCFBF00FBEE40 /* Frameworks */,
+				15917FF01AEDCFBF00FBEE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontScrollView;
+			productName = FontScrollView;
+			productReference = 15917FF21AEDCFBF00FBEE40 /* FontScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1591800A1AEDCFBF00FBEE40 /* FontScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 159180181AEDCFBF00FBEE40 /* Build configuration list for PBXNativeTarget "FontScrollViewTests" */;
+			buildPhases = (
+				159180071AEDCFBF00FBEE40 /* Sources */,
+				159180081AEDCFBF00FBEE40 /* Frameworks */,
+				159180091AEDCFBF00FBEE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1591800D1AEDCFBF00FBEE40 /* PBXTargetDependency */,
+			);
+			name = FontScrollViewTests;
+			productName = FontScrollViewTests;
+			productReference = 1591800B1AEDCFBF00FBEE40 /* FontScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15917FEA1AEDCFBF00FBEE40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ios;
+				TargetAttributes = {
+					15917FF11AEDCFBF00FBEE40 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					1591800A1AEDCFBF00FBEE40 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 15917FF11AEDCFBF00FBEE40;
+					};
+				};
+			};
+			buildConfigurationList = 15917FED1AEDCFBF00FBEE40 /* Build configuration list for PBXProject "FontScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15917FE91AEDCFBF00FBEE40;
+			productRefGroup = 15917FF31AEDCFBF00FBEE40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15917FF11AEDCFBF00FBEE40 /* FontScrollView */,
+				1591800A1AEDCFBF00FBEE40 /* FontScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15917FF01AEDCFBF00FBEE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1591804D1AEDD59900FBEE40 /* fontH_03.png in Resources */,
+				159180011AEDCFBF00FBEE40 /* Main.storyboard in Resources */,
+				1591804F1AEDD59900FBEE40 /* fontH_05.png in Resources */,
+				159180561AEDD59900FBEE40 /* fontTT.png in Resources */,
+				159180421AEDD59900FBEE40 /* font_03@2x.png in Resources */,
+				159180411AEDD59900FBEE40 /* font_02@2x.png in Resources */,
+				159180511AEDD59900FBEE40 /* fontH_TT.png in Resources */,
+				1591803F1AEDD59900FBEE40 /* font_00@2x.png in Resources */,
+				159180481AEDD59900FBEE40 /* fontBT.png in Resources */,
+				159180571AEDD59900FBEE40 /* foutbug_01.png in Resources */,
+				1591805D1AEDD59900FBEE40 /* styleleft.png in Resources */,
+				159180591AEDD59900FBEE40 /* style_01.png in Resources */,
+				159180401AEDD59900FBEE40 /* font_01@2x.png in Resources */,
+				159180491AEDD59900FBEE40 /* fontBT_BT.png in Resources */,
+				159180671AEE218F00FBEE40 /* arista.ttf in Resources */,
+				159180551AEDD59900FBEE40 /* fonttH_02.png in Resources */,
+				159180461AEDD59900FBEE40 /* fontB.png in Resources */,
+				1591805C1AEDD59900FBEE40 /* stylecenter.png in Resources */,
+				1591806E1AEE222700FBEE40 /* OpenSans-Bold.ttf in Resources */,
+				159180431AEDD59900FBEE40 /* font_04@2x.png in Resources */,
+				159180681AEE218F00FBEE40 /* BaroqueScript.ttf in Resources */,
+				159180521AEDD59900FBEE40 /* fontsmall.png in Resources */,
+				1591806C1AEE222700FBEE40 /* HYLeMiaoTiJRegular.ttf in Resources */,
+				159180061AEDCFBF00FBEE40 /* LaunchScreen.xib in Resources */,
+				1591805B1AEDD59900FBEE40 /* style_03.png in Resources */,
+				159180471AEDD59900FBEE40 /* fontbig@2x.png in Resources */,
+				159180531AEDD59900FBEE40 /* fontT.png in Resources */,
+				1591804A1AEDD59900FBEE40 /* fontH_00@2x.png in Resources */,
+				1591806D1AEE222700FBEE40 /* Kai.ttf in Resources */,
+				1591805A1AEDD59900FBEE40 /* style_02.png in Resources */,
+				1591804E1AEDD59900FBEE40 /* fontH_04.png in Resources */,
+				159180501AEDD59900FBEE40 /* fontH_06.png in Resources */,
+				159180541AEDD59900FBEE40 /* fonttH_01.png in Resources */,
+				159180451AEDD59900FBEE40 /* font_06@2x.png in Resources */,
+				159180031AEDCFBF00FBEE40 /* Images.xcassets in Resources */,
+				1591804C1AEDD59900FBEE40 /* fontH_02.png in Resources */,
+				1591804B1AEDD59900FBEE40 /* fontH_01.png in Resources */,
+				1591805E1AEDD59900FBEE40 /* styleright.png in Resources */,
+				159180441AEDD59900FBEE40 /* font_05.png in Resources */,
+				159180581AEDD59900FBEE40 /* foutsmal_01.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		159180091AEDCFBF00FBEE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15917FEE1AEDCFBF00FBEE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159180641AEE193500FBEE40 /* LLRollingButtonScrollView.m in Sources */,
+				15917FFE1AEDCFBF00FBEE40 /* ViewController.m in Sources */,
+				1591801D1AEDCFD600FBEE40 /* SSRollingButtonScrollView.m in Sources */,
+				159180711AEE315C00FBEE40 /* intforColor.m in Sources */,
+				15917FFB1AEDCFBF00FBEE40 /* AppDelegate.m in Sources */,
+				15917FF81AEDCFBF00FBEE40 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		159180071AEDCFBF00FBEE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159180121AEDCFBF00FBEE40 /* FontScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1591800D1AEDCFBF00FBEE40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15917FF11AEDCFBF00FBEE40 /* FontScrollView */;
+			targetProxy = 1591800C1AEDCFBF00FBEE40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15917FFF1AEDCFBF00FBEE40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				159180001AEDCFBF00FBEE40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		159180041AEDCFBF00FBEE40 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				159180051AEDCFBF00FBEE40 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		159180131AEDCFBF00FBEE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		159180141AEDCFBF00FBEE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		159180161AEDCFBF00FBEE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FontScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		159180171AEDCFBF00FBEE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FontScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		159180191AEDCFBF00FBEE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FontScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontScrollView.app/FontScrollView";
+			};
+			name = Debug;
+		};
+		1591801A1AEDCFBF00FBEE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FontScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontScrollView.app/FontScrollView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15917FED1AEDCFBF00FBEE40 /* Build configuration list for PBXProject "FontScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				159180131AEDCFBF00FBEE40 /* Debug */,
+				159180141AEDCFBF00FBEE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		159180151AEDCFBF00FBEE40 /* Build configuration list for PBXNativeTarget "FontScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				159180161AEDCFBF00FBEE40 /* Debug */,
+				159180171AEDCFBF00FBEE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		159180181AEDCFBF00FBEE40 /* Build configuration list for PBXNativeTarget "FontScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				159180191AEDCFBF00FBEE40 /* Debug */,
+				1591801A1AEDCFBF00FBEE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15917FEA1AEDCFBF00FBEE40 /* Project object */;
+}
