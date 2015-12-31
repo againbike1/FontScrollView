@@ -13,7 +13,7 @@
 {
     BOOL _viewsInitialLoad;
     BOOL _lockCenterButton;
-    
+    //注释
     NSMutableArray *_rollingScrollViewButtonTitles;
     SScontentLayoutStyle _layoutStyle;
     
