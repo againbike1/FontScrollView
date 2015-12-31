@@ -24,7 +24,6 @@
     if (!self.fontArray) {
         self.fontArray = [NSMutableArray array];
     }
-//    NSArray *digits = [NSArray arrayWithObjects:@"8", @"9", @"0", @"1", @"2", @"3", @"4", @"5", @"6", @"7", nil];
   NSArray *colorArray=@[[UIColor blackColor],
     [UIColor redColor],
     [UIColor blueColor],
@@ -46,8 +45,8 @@
     self.digitSelector03.fixedButtonHeight = 40.0f;
     self.digitSelector03.spacingBetweenButtons = 2.0f;
 
-//    self.digitSelector03.notCenterButtonTextColor = [UIColor blackColor];
-//    self.digitSelector03.notCenterButtonBackgroundColor = [UIColor whiteColor];
+    self.digitSelector03.notCenterButtonTextColor = [UIColor blackColor];
+    self.digitSelector03.notCenterButtonBackgroundColor = [UIColor whiteColor];
 
     self.digitSelector03.stopOnCenter = NO;
 
@@ -56,14 +55,6 @@
 
     [self.digitSelector03 createButtonArrayWithButtonTitles:colorArray andLayoutStyle:SShorizontalLayout];
     
-//    UIColor *color = [self.colorArray objectAtIndex:indexPath.row];
-//    //    cell.backgroundColor = color;
-//    UIView *view=[[UIView alloc] init];
-//    
-//    view.frame=CGRectMake(15, 5, 71/2, 81/2);
-//    view.backgroundColor=color;
-//    [cell addSubview:view];
-
 
     self.digitSelector03.ssRollingButtonScrollViewDelegate = self;
     
@@ -110,6 +101,9 @@
     self.fontsizeView.notCenterButtonBackgroundColor = [UIColor whiteColor];
     [self.fontsizeView createButtonArrayWithButtonTitles:digits andLayoutStyle:LLhorizontalLayout];
     self.fontsizeView.llRollingButtonScrollViewDelegate = self;
+    
+    //git commit
+    
 }
 
 #pragma mark - SSRollingButtonScrollViewDelegate
